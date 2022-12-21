@@ -1,0 +1,101 @@
+*{
+	box-sizing: border-box;
+	padding: 0px;
+	margin: 0px;
+	scroll-behavior: smooth;
+}
+
+.nav-container{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-bottom: 29px;
+	background-color: rgb(214, 214, 214);
+}
+
+.container{
+	padding: 2em;
+}
+
+.nav-left{
+	display: flex;
+	align-items: center;
+	gap: 1rem;
+}
+
+.nav-links{
+	display: flex;
+	gap: 2em;
+}
+
+.nav-links a{
+	color: black;
+	display: flex;
+	text-decoration: none;
+	gap: 1em;
+}
+
+.nav-right{
+	display: flex;
+	align-items: center;
+	gap: 1em;
+}
+
+.nav-right a{
+	color: black;
+	text-decoration: none;
+}
+
+.nav-right button{
+	background-color: white;
+	width: 150px;
+	cursor: pointer;
+	font-family: Epilogue, sans-serif;
+border: 1px solid black;
+border-image: initial;
+padding: 1em;
+border-radius: 15px;
+}
+
+
+.wireless-mouse{
+	height:25px;
+	padding-right: 30px;
+}
+.content-container{
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+grid-auto-rows: auto;
+grid-column-gap: 46px;
+grid-row-gap: 120px;
+}
+
+.content-card{
+	border: 2px solid rgb(214, 214, 214);
+	border-radius: 4px;
+	padding: 1rem;
+	background: linear-gradient(292deg, rgb(250, 238, 170), rgb(252, 143, 143), rgb(172, 172, 246));
+}
+
+h4 a{
+	text-decoration: none;
+	cursor: pointer;
+	color:rgb(84, 81, 69)
+}
+span{
+	font-size: 8px;
+	font-family:Arial, Helvetica, sans-serif
+}
+
+.card-stock{
+	display: block;
+	width: 180px;
+	height: 180px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-bottom: 15px;
+}
+
+footer{
+	background-color: rgb(214,214,214);
+}
